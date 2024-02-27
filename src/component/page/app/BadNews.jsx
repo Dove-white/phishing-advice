@@ -5,7 +5,7 @@ const BadNews = () => {
   return (
     <>
       <PhishedCard
-        showPrevuesArrow="opacity-0 hover:opacity-0 cursor-default"
+        showPrevuesArrow="opacity-0 cursor-default"
         image={BadNewsImage}
         title={"BAD NEWS"}
         boldContent={

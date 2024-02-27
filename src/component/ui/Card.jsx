@@ -17,18 +17,15 @@ const PhishedCard = ({
 }) => {
   return (
     <div className="w-full h-[100vh] flex flex-col justify-center items-center">
-      <div className="flex gap-[42px] items-center">
-        <Link
-          to={prevuesPage}
-          className=" max-sm:absolute max-sm:bottom-9 max-sm:left-[40%] -translate-x-[40%]"
-        >
+      <div className="flex sm:gap-[42px] items-center">
+        <Link to={prevuesPage} className="max-sm:absolute left-0 max-sm:ml-3">
           <IoIosArrowDropleftCircle
-            className={`hover:text-[#212d43]` + showPrevuesArrow}
+            className={showPrevuesArrow}
             size={37}
             color="#243654"
           />
         </Link>
-        <div className="sm:h-[700px] max-sm:max-h-[700px] bg-white shadow-[0px_5px_15px_rgba(0,0,0,0.35)] rounded-lg sm:w-[440px] max-sm:max-w-[440px] max-sm:mx-6">
+        <div className="max-h-[700px] bg-white shadow-[0px_5px_15px_rgba(0,0,0,0.35)] rounded-lg sm:w-[440px] max-sm:max-w-[440px] max-sm:mx-6 max-sm:mb-8">
           <div className="sm:h-[285px] max-sm:h-[285px] border-b rounded-md flex justify-center items-center">
             <img
               className="max-sm:h-full max-sm:w-full max-sm:object-cover"
@@ -36,7 +33,7 @@ const PhishedCard = ({
               alt=""
             />
           </div>
-          <div className="text-center sm:py-[55px] sm:px-[20px] max-sm:px-7 max-sm:py-10 max-sm:flex max-sm:flex-col gap-10">
+          <div className="text-center sm:py-[20px] sm:px-[20px] max-sm:px-7 max-sm:py-10 max-sm:flex max-sm:flex-col gap-10">
             <h4 className="text-[#969191] text-sm sm:pb-[21px] font-[500]">
               {title}
             </h4>
@@ -46,12 +43,9 @@ const PhishedCard = ({
             <div className="text-[#807D7D] text-xs">{simeContent}</div>
           </div>
         </div>
-        <Link
-          to={nextPage}
-          className=" max-sm:absolute max-sm:bottom-9 max-sm:right-[40%] translate-x-[40%]"
-        >
+        <Link to={nextPage} className="max-sm:absolute right-0 max-sm:mr-3">
           <IoIosArrowDroprightCircle
-            className={`hover:text-[#212d43] ` + showNextArrow}
+            className={showNextArrow}
             size={37}
             color="#243654"
           />

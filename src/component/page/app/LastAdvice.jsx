@@ -25,7 +25,7 @@ const LastAdvice = () => {
             as soon as possible
           </div>
         }
-        showNextArrow="opacity-0 hover:opacity-0 cursor-default"
+        showNextArrow="opacity-0 cursor-default"
       />
     </>
   );
