@@ -21,6 +21,7 @@ const ThirdAdvice = () => {
             are trying to penetrate
           </div>
         }
+        nextPage="/phishing-advice/fourth-advice"
       />
     </>
   );
