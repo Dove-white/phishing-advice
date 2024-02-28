@@ -19,7 +19,7 @@ const FirstAdvice = () => {
             possible.
           </div>
         }
-        nextPage="/second-advice"
+        nextPage="/phishing-advice/second-advice"
       />
     </>
   );

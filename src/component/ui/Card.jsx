@@ -40,7 +40,7 @@ const PhishedCard = ({
             <h3 className="text-[#243654] font-[500] text-[1.8rem] leading-9 sm:pb-[50px]">
               {boldContent}
             </h3>
-            <div className="text-[#807D7D] text-xs">{simeContent}</div>
+            <div className="text-[#807D7D] text-sm">{simeContent}</div>
           </div>
         </div>
         <Link to={nextPage} className="max-sm:absolute right-0 max-sm:mr-3">

@@ -5,7 +5,7 @@ const SixthAdvice = () => {
   return (
     <>
       <PhishedCard
-        prevuesPage="/fifth-advice"
+        prevuesPage="/phishing-advice/fifth-advice"
         image={SixthAdviceImage}
         title={"Sixth  Advice"}
         boldContent={"Always use a side channel"}
@@ -19,7 +19,7 @@ const SixthAdvice = () => {
             or call the sender
           </div>
         }
-        nextPage="/last-advice"
+        nextPage="/phishing-advice/last-advice"
       />
     </>
   );

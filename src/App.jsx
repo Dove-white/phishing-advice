@@ -14,13 +14,13 @@ const App = () => {
     <div>
       <Routes>
         <Route path="/phishing-advice/" element={<BadNews />} />
-        <Route path="/first-advice" element={<FirstAdvice />} />
-        <Route path="/second-advice" element={<SecondAdvice />} />
-        <Route path="/third-advice" element={<ThirdAdvice />} />
-        <Route path="/fourth-advice" element={<FourthAdvice />} />
-        <Route path="/fifth-advice" element={<FifthAdvice />} />
-        <Route path="/sixth-advice" element={<SixthAdvice />} />
-        <Route path="/last-advice" element={<LastAdvice />} />
+        <Route path="/phishing-advice/first-advice" element={<FirstAdvice />} />
+        <Route path="/phishing-advice/second-advice" element={<SecondAdvice />} />
+        <Route path="/phishing-advice/third-advice" element={<ThirdAdvice />} />
+        <Route path="/phishing-advice/fourth-advice" element={<FourthAdvice />} />
+        <Route path="/phishing-advice/fifth-advice" element={<FifthAdvice />} />
+        <Route path="/phishing-advice/sixth-advice" element={<SixthAdvice />} />
+        <Route path="/phishing-advice/last-advice" element={<LastAdvice />} />
       </Routes>
     </div>
   );
