@@ -9,7 +9,7 @@ const ThirdAdvice = () => {
         image={ThirdAdviceImage}
         title={"Third Advice"}
         boldContent={
-          "Stay alert,especially on weekends or during the pre-holiday period"
+          "Stay alert, especially on weekends or during the pre-holiday period"
         }
         simeContent={
           <div>

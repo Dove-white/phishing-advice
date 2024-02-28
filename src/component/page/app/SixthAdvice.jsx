@@ -7,7 +7,7 @@ const SixthAdvice = () => {
       <PhishedCard
         prevuesPage="/phishing-advice/fifth-advice"
         image={SixthAdviceImage}
-        title={"Sixth  Advice"}
+        title={"Last  Advice"}
         boldContent={"Always use a side channel"}
         simeContent={
           <div>

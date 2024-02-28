@@ -13,7 +13,7 @@ const FifthAdvice = () => {
           <div>
             warning us when{" "}
             <span className="text-[black] font-medium">
-              receive a suspicious email
+              receive a suspicious email{" "}
             </span>
             will help us contain the attack. There’s a safe way to do that. use
             the red outlook button on the right side of the screen or forward

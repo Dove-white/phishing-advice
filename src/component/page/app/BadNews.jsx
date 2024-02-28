@@ -9,13 +9,13 @@ const BadNews = () => {
         image={BadNewsImage}
         title={"BAD NEWS"}
         boldContent={
-          "You just got phised but its okay,this time it was just a exercise"
+          "You just got phised but its okay, this time it was just a exercise"
         }
         simeContent={
           <div>
             The phishing risk cannot{" "}
             <span className="text-[black] font-medium">be taken lightly</span>.
-            Follow these 5 tips to prepare yourself
+            Follow these 6 tips to prepare yourself
           </div>
         }
         nextPage="/phishing-advice/first-advice"
