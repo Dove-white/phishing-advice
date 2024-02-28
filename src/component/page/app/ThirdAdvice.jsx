@@ -5,7 +5,7 @@ const ThirdAdvice = () => {
   return (
     <>
       <PhishedCard
-        prevuesPage="/phishing-advice/second-advice"
+        prevuesPage="/second-advice"
         image={ThirdAdviceImage}
         title={"Third Advice"}
         boldContent={
@@ -21,7 +21,7 @@ const ThirdAdvice = () => {
             are trying to penetrate
           </div>
         }
-        nextPage="/phishing-advice/fourth-advice"
+        nextPage="/fourth-advice"
       />
     </>
   );

@@ -5,7 +5,7 @@ const FifthAdvice = () => {
   return (
     <>
       <PhishedCard
-        prevuesPage="/phishing-advice/fourth-advice"
+        prevuesPage="/fourth-advice"
         image={FifthAdviceImage}
         title={"Fifth  Advice"}
         boldContent={"Help us help you"}
@@ -29,7 +29,7 @@ const FifthAdvice = () => {
             </span>
           </div>
         }
-        nextPage="/phishing-advice/sixth-advice"
+        nextPage="/sixth-advice"
       />
     </>
   );

@@ -16,7 +16,7 @@ const PhishedCard = ({
   showNextArrow,
 }) => {
   return (
-    <div className="w-full h-[100vh] flex flex-col justify-center items-center">
+    <div className="w-full my-5 min-h-[100vh] flex flex-col justify-center items-center">
       <div className="flex sm:gap-[42px] items-center">
         <Link to={prevuesPage} className="max-sm:absolute left-0 max-sm:ml-3">
           <IoIosArrowDropleftCircle
@@ -25,7 +25,7 @@ const PhishedCard = ({
             color="#243654"
           />
         </Link>
-        <div className="max-h-[700px] bg-white shadow-[0px_5px_15px_rgba(0,0,0,0.35)] rounded-lg sm:w-[440px] max-sm:max-w-[440px] max-sm:mx-6 max-sm:mb-8">
+        <div className="max-h-[700px] min-h-[600px] bg-white shadow-[0px_5px_15px_rgba(0,0,0,0.35)] rounded-lg sm:w-[440px] max-sm:max-w-[440px] max-sm:mx-6 max-sm:my-8">
           <div className="sm:h-[285px] max-sm:h-[285px] border-b rounded-md flex justify-center items-center">
             <img
               className="max-sm:h-full max-sm:w-full max-sm:object-cover"

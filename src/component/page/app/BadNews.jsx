@@ -18,7 +18,7 @@ const BadNews = () => {
             Follow these 5 tips to prepare yourself
           </div>
         }
-        nextPage="/phishing-advice/first-advice"
+        nextPage="/first-advice"
       />
     </>
   );
