@@ -5,18 +5,20 @@ const FirstAdvice = () => {
   return (
     <>
       <PhishedCard
+              showPrevuesArrow="opacity-0 cursor-default"
+
         prevuesPage="/phishing-advice/"
         image={FirstAdviceImage}
-        title={"First  Advice"}
-        boldContent={"Take your time, don’t rush things out, ask for advice"}
+        title={1}
+        boldContent={"Take your time, don't rush things out, ask for advice"}
         simeContent={
           <div>
             Hackers will{" "}
-            <span className="text-[black] font-medium">
+            <span className="text-[1.15rem] font-[700]">
               push you into compromising your credentials
             </span>
-            . they will create a situation where you have to act as soon as
-            possible.
+            . They will create a situation where you have to act as soon as
+            possible
           </div>
         }
         nextPage="/phishing-advice/second-advice"

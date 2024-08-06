@@ -7,13 +7,13 @@ const SixthAdvice = () => {
       <PhishedCard
         prevuesPage="/phishing-advice/fifth-advice"
         image={SixthAdviceImage}
-        title={"Last  Advice"}
+        title={6}
         boldContent={"Always use a side channel"}
         simeContent={
           <div>
             If you are unsure the email is legitimate, you should avoid clicking
             links and{" "}
-            <span className="text-[black] font-medium">
+            <span className="text-[1.15rem] font-[700]">
               go directly to the official website
             </span>{" "}
             or call the sender

@@ -7,14 +7,14 @@ const FourthAdvice = () => {
       <PhishedCard
         prevuesPage="/phishing-advice/third-advice"
         image={FourthAdviceImage}
-        title={"Fourth  Advice"}
+        title={4}
         boldContent={
           "Do not download suspicious files or files of unknown origin"
         }
         simeContent={
           <div>
             From time to time, our protection barriers{" "}
-            <span className="text-[black] font-medium">
+            <span className="text-[1.15rem] font-[700]">
               let through dangerous files
             </span>
             , especially when they are compressed and/or password protected. It
