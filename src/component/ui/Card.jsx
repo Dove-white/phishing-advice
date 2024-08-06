@@ -30,7 +30,7 @@ const PhishedCard = ({
         >
           <FaArrowLeftLong size={20} color="#2635AA" />
         </Link>
-        <div className="max-h-[700px] min-h-[550px] bg-white shadow-lg rounded-[2rem] sm:w-[470px] max-sm:max-w-[440px] max-sm:mx-6 max-sm:my-8">
+        <div className="min-h-[550px] bg-white shadow-lg rounded-[2rem] sm:w-[470px] max-sm:max-w-[440px] max-sm:mx-6 max-sm:my-8">
           <div className="sm:h-[285px] max-sm:h-[285px] rounded-md flex justify-center items-center">
             <img
               className="max-sm:h-full max-sm:w-full max-sm:object-cover"
